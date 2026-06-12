@@ -202,7 +202,6 @@ This library exposes native XXHash implementation (https://github.com/Cyan4973/x
 
 | Platform | Architecture |
 |----------|--------------|
-| al2 | x64 |
 | fedora-34 | x64 |
 | freebsd | 14.0 |
 | macos-14 | arm64 |
@@ -220,6 +219,7 @@ This library exposes native XXHash implementation (https://github.com/Cyan4973/x
 
 | Platform | Architecture |
 |----------|--------------|
+| al2 | x64 |
 
 ## Supported Tools
 
