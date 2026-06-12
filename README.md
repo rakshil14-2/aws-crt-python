@@ -194,3 +194,47 @@ aws-crt-python builds against windows sdk version `10.0.17763.0` . This is the m
 
 ### Attribution
 This library exposes native XXHash implementation (https://github.com/Cyan4973/xxHash).
+
+<!-- PLATFORM_SUPPORT_START -->
+# Platform Support
+
+## Tier 1 — Fully Supported & Tested in CI
+
+| Platform | Architecture |
+|----------|--------------|
+| al2 | x64 |
+| fedora-34 | x64 |
+| freebsd | 14.0 |
+| macos-14 | arm64 |
+| macos-14-large | x64 |
+| manylinux1 | x64, x86 |
+| manylinux2014 | x64,x86, arm64 |
+| musllinux-1-1 | x64, arm64 |
+| openSUSE-leap | x64 |
+| openbsd | 7.4,7.5 |
+| raspberry | raspbian-bullseye |
+| rhel8 | x64 |
+| windows-10,11 | x64,x86 |
+
+## Tier 2 — Supported (Not Tested in CI)
+
+| Platform | Architecture |
+|----------|--------------|
+
+## Supported Tools
+
+| Name | Version | Platforms |
+|------|---------|-----------|
+| Clang | 6,8,9,10,11,latest | all |
+| Cmake | 3 | All |
+| gcc | 5,6,7,8 | All |
+| libcrypto | system_version | linux |
+| msvc | 17 | windows |
+
+## Supported Frameworks
+
+| Name | Version | Platforms |
+|------|---------|-----------|
+| Python | 3.8+ | All |
+
+<!-- PLATFORM_SUPPORT_END -->
